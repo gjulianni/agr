@@ -1,0 +1,51 @@
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App {
+  min-height: 80vh;
+  width: 50vw;
+  border: 6px solid white;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header img {
+  max-width: 30%;
+  max-height: auto;
+}
+
+.header > h1 {
+  color: black;
+  font-size: 30px;
+}
+
+button {
+  background-color: #fff;
+  padding: 25px 45px;
+  border-radius: 7px;
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+  transition: .3s ease transform;
+  font-size: 20px;
+}
+
+button:hover {
+  transform: scale(1.04);
+}
